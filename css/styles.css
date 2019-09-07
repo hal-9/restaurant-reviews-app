@@ -337,8 +337,11 @@ nav h1 a {
 		display: flex;
 		margin: auto;
 	}
-	#entirePage {
+	#entirePage, #entireDetailsPage {
 		width: 1280px;
 		margin: auto;
+	}
+	.inside header {
+		position: inherit;
 	}
 }
