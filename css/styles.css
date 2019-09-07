@@ -334,7 +334,11 @@ nav h1 a {
 		margin: auto;
 	}
 	#reviews-list {
-		width: 50%;
+		display: flex;
+		margin: auto;
+	}
+	#entirePage {
+		width: 1280px;
 		margin: auto;
 	}
 }
