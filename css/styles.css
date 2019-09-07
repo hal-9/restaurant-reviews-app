@@ -278,6 +278,9 @@ nav h1 a {
 	.filter-options h2 {
 		margin: 10px;
 	}
+	#restaurant-address {
+		font-size: 20pt;
+	}
 	#restaurants-list li {
 		width: auto;
 		text-align: center;
@@ -285,7 +288,53 @@ nav h1 a {
 	#restaurant-cuisine {
 		font-size: 18pt;
 	}
-	#restaurant-container, #reviews-container {
+	#restaurant-container {
 		text-align: center;
 		padding-top: 115px;
+	}
+	#restaurant-hours {
+		margin: auto;
+	}
+	#restaurant-address {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	#right {
+		width: 50%;
+		padding-top: 200px;
+	}
+	#left {
+		width: 50%;
+	}
+	#restaurant-address {
+		font-size: 25pt;
+	}
+	td {
+		font-size: 13pt;
+	}
+	#restaurant-container {
+		display: flex;
+	}
+	#restaurant-name {
+		font-size: 30pt;
+	}
+	#restaurants-list {
+		display: flex;
+		flex-flow: wrap;
+	}
+	#restaurants-list li {
+		width: 541px;
+	}
+	#restaurant-cuisine {
+		margin-bottom: 20px;
+	}
+	#restaurant-hours {
+		margin: auto;
+	}
+	#reviews-list {
+		width: 50%;
+		margin: auto;
+	}
 }
