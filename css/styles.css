@@ -193,9 +193,7 @@ nav h1 a {
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
-  right: 0;
-  top: 80px;
+  height: 250px;
   width: 100%;
 }
 .inside #map {
@@ -298,6 +296,8 @@ nav h1 a {
 	#restaurant-address {
 		text-align: center;
 	}
+	.inside #map-container {
+		height: 300px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -316,6 +316,7 @@ nav h1 a {
 	}
 	#restaurant-container {
 		display: flex;
+		padding-top: 15px;
 	}
 	#restaurant-name {
 		font-size: 30pt;
@@ -344,4 +345,6 @@ nav h1 a {
 	.inside header {
 		position: inherit;
 	}
+	.inside #map-container {
+		height: 400px;
 }
