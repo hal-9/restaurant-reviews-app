@@ -1,5 +1,5 @@
 # Restaurant Reviews App (Stage 1)
-** restaurant reviews app for the front-end web developer nanodegree at udacity**
+**restaurant reviews app for the front-end web developer nanodegree at udacity**
 
 ## Instructions
 
