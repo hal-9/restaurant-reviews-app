@@ -26,8 +26,12 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 *:focus {
-    outline: 2px solid black;
+    outline: 2px solid blue;
   }
+#map.leaflet-container:focus {
+	outline: 5px solid blue;
+	outline-style: inset;
+}
 a img{
 	border: none 0px #fff;
 }
@@ -341,13 +345,16 @@ nav h1 a {
 		display: flex;
 		margin: auto;
 	}
-	#entirePage, #entireDetailsPage {
-		width: 1280px;
-		margin: auto;
-	}
 	.inside header {
 		position: inherit;
 	}
 	.inside #map-container {
 		height: 400px;
 }
+
+/* @media screen and (min-width: 1440px) {
+	#entirePage, #entireDetailsPage {
+		width: 1440px;
+		margin: auto;
+	}
+} */
